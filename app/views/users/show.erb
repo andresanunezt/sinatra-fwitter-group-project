@@ -1,0 +1,9 @@
+<h3>ALL TWEETS</h3>
+
+<ol>
+    <li> 
+        <% @user.tweets.each do |tweet| %>
+            <%= tweet.content %>
+        <% end %>
+    </li>
+</ol>
